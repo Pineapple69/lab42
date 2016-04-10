@@ -8,6 +8,7 @@ package javaapplication12;
 /**
  *
  * @author sofastarikova
+ * @author RomanKucherenko
  */
  
 public class JavaApplication12 {
