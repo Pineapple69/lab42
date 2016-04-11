@@ -5,18 +5,26 @@
  */
 package javaapplication12;
 
+import static javaapplication12.JavaApplication12.changeBalance;
+
 /**
  *
  * @author sofastarikova
  */
  
 public class JavaApplication12 {
-    
+    public static int changeBalance()
+         {
+             int newvalue = 10;
+             return newvalue;
+         }
  public static void main(String[] args) {
  Product product = new Product("Edam", 3.3, 120);
  System.out.println("Product value is " + product.countValue());
  product.printProduct();
+ JavaApplication12.changeBalance();
  }
+ 
 }
 class Product {
 private String name;
